@@ -19,7 +19,8 @@ Se compararon dos modelos de Random Forest:
 | Sin `duration`      | 87.58%   | 0.47             | 0.43          | 0.45           | ✅ Modelo realista     |
 
 > 🔎 Nota: La variable `duration` (duración de la llamada) tiene alta correlación con la respuesta, pero **no está disponible antes de llamar**, por lo que usarla en un modelo predictivo real es incorrecto.
-![image](https://github.com/user-attachments/assets/dc3597b6-b1d1-4b55-8af3-b73af06faa76
+![image](https://github.com/user-attachments/assets/93cf7a9c-54a7-4dcf-9164-b40a1167fe24)
+
 ## 🧠 Conclusiones
 - Un modelo ético y aplicable debe excluir variables conocidas *solo después* del evento (como `duration`).
 - Aunque el accuracy general disminuye al quitar `duration`, el modelo gana en utilidad práctica.
