@@ -29,6 +29,7 @@ Se compararon dos modelos de Random Forest:
 - Python
 - Pandas, Scikit-learn, Matplotlib
 - Jupyter Notebook
+![image](https://github.com/user-attachments/assets/dc3597b6-b1d1-4b55-8af3-b73af06faa76)
 
 ---
 
